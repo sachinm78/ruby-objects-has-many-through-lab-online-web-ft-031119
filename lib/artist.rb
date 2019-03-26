@@ -11,11 +11,11 @@ class Artist
 		song.artist = self
 	end
 	
-	def songs #used as self.songs in method below
+	def songs 
 		@songs
 	end
 	
-	def genres #returns an array of genre objects
+	def genres 
 		self.songs.collect do |song|
 			song.genre 
 		end
