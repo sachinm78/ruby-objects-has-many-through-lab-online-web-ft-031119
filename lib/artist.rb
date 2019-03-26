@@ -8,6 +8,10 @@ class Artist
     @@all << name
   end
   
+  def name
+    @name = name
+  end
+  
   def new_song(name, genre)
     
   end
