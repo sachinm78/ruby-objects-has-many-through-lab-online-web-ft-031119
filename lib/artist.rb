@@ -3,13 +3,9 @@ class Artist
   
   @@all = []
   
-  def intialize(name)
+  def intialize
     @name = name
     @@all << name
-  end
-  
-  def name
-    @name = name
   end
   
   def new_song(name, genre)
